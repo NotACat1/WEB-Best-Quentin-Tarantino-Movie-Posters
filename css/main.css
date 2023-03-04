@@ -71,8 +71,8 @@ body {
   text-align: right;
   font-weight: 500;
   color: var(--text);
-  font-size: calc(var(--index) * .65);
-  letter-spacing: calc(var(--index) * .10);
+  font-size: calc(var(--index) * .85);
+  letter-spacing: calc(var(--index) * .13);
 }
 .main-footer {
   background-color: #101010;
@@ -164,12 +164,12 @@ body {
 }
 .web-header__container__header {
   height: 100%;
+  position: absolute;
+  width: 40vw;
+	top: 10vh;
 }
 .web-header__container__header__title {
   font-size: calc(var(--index) * 4.32);
-	position: absolute;
-  width: 40vw;
-	top: 10vh;
 	line-height: .9;
 }
 .gallery {
