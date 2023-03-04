@@ -71,8 +71,8 @@ body {
   text-align: right;
   font-weight: 500;
   color: var(--text);
-  font-size: calc(var(--index) * .75);
-  letter-spacing: calc(var(--index) * .13);
+  font-size: calc(var(--index) * .65);
+  letter-spacing: calc(var(--index) * .10);
 }
 .main-footer {
   background-color: #101010;
