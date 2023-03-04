@@ -184,8 +184,8 @@ body {
 	align-items: center;	
 }
 .gallery__item {
-	width: calc(var(--index) * 17);
-  height: calc(var(--index) * 27);
+	width: calc(var(--index) * 15);
+  height: calc(var(--index) * 23);
 	margin-bottom: var(--gallery-gap);	
 	border-radius: 8px;
   box-shadow:  0 0 calc(var(--index) * 1.5) calc(var(--index) * 0.5) rgba(0, 0, 0, 0.523);
@@ -211,12 +211,12 @@ body {
 .gallery__item__comment > h4 {
   text-align: center;
   margin: 0 calc(var(--index) * .8);
-  font-size: calc(var(--index) * 1.5);
+  font-size: calc(var(--index) * 1.2);
 }
 .gallery__item__comment > p {
   text-align: justify;
   margin: calc(var(--index) * .5) calc(var(--index) * .8);
-  font-size: calc(var(--index) * 0.85);
+  font-size: calc(var(--index) * 0.65);
 }
 .gallery__item:hover .gallery__item__comment {
   opacity: 1;
